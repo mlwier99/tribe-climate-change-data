@@ -1,5 +1,7 @@
 # tribe-climate-change-data
 
+Description: Retrieves first page of Google results for all federally-recognized Native American tribes and downloads links. 
+
 Home OS: Arch 
 
 Developer: RStudio (minor alterations in Mousepad/.txt editor) 
