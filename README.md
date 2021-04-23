@@ -58,3 +58,5 @@ General notes:
   - Make sure to check the ./Tribe Directories/[each tribe] names occassionally. At one point, tribe names in the list were merged together, likely due to a missing comma between list items in the tribe name list. It should be fixed now, but it's something to keep an eye out for. 
 <!--  - Rather than deleting tribe sub-folders when I rerun a tribe, I rename folders--example, ./Tribe Directories  ./Tribe Direcotires_Feb when I rerun all the tribes in March, etc. I tend to zip the old folders to save space. --> 
  
+ 
+ Started January 2021
