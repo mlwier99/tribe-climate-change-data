@@ -2,8 +2,6 @@
 import os
 import csv, fnmatch
 
-#excel file are annoying me atm, writing to csv instead
-
 ####################################### Directory Changes
 if os.path.exists('/home/michelle/Dropbox/RA Work/Spring 2021, TP/Native Environment Data/'): 
   os.chdir('/home/michelle/Dropbox/RA Work/Spring 2021, TP/Native Environment Data/')

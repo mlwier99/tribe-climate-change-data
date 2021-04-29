@@ -11,7 +11,7 @@ import googlesearch # Package documentation: https://python-googlesearch.readthe
 #from googlesearch import search
 import sys
 
-print("googlesearch package located in" ,googlesearch.__file__)
+#print("googlesearch package located in" ,googlesearch.__file__)
 
 ####################################### Directory Changes
 orgdir = os.getcwd() 
@@ -30,28 +30,17 @@ else:
 
 ###################################### Lists
 # Tribes 
-tribe_names = [
-#"Tunica-Biloxi Indian Tribe of Louisiana",
-#"Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria of California",
-#"United Auburn Indian Community of the Auburn Rancheria of California",
-#"Upper Sioux Community",
-#"Village of Alakanuk",
-#"Village of Kalskag",
-#"Village of Lower Kalskag",
-"Village of Venetie",
-#"White Mountain Apache Tribe of the Fort Apache Reservation",
-#"Wilton Rancheria",
-#"Yocha Dehe Wintun Nation, California",
-#"Yomba Shoshone Tribe of the Yomba Reservation",
-#"Puyallup Tribe of the Puyallup Reservation"
-]
+tribes = open("./Scripts/TribeList.txt", "r")
+tribelist = tribes.read()
+tribelist.close()
 
-print("Number of tribes in list:", len(tribe_names))
+tribe_names = tribelist.split("\n")
+  
+#print("Number of tribes in list:", len(tribe_names))
 
 #Search terms (in quotes/strict)
 search_terms = ['"climate change"', '"enviornmental"', '"global warming"']
-print("Search terms:", search_terms)
-
+#print("Search terms:", search_terms)
 
 ###################################### Creating Subdirectories
 #Google Searches 
