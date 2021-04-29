@@ -24,8 +24,10 @@ Retrieves first page of Google results for all federally-recognized Native Ameri
 ### Files Uploaded
 **DirSearchPrint.py**
     * combines each tribe from Federal and State Recognized Tribes (2020; found at National Conference of State Legislators website) with one of three search terms, then retreives the first ten results for each tribe-term. 
+    * 
     * if it doesn't already exist, will create  ./Tribe Directories folder. 
-    * during the loop, for each tribe that has been run, the code generates two additional folders: ./Tribe Directories/[each tribe]; and ./Tribeies/[each tribe]/PDFs. 
+    *
+    *  during the loop, for each tribe that has been run, the code generates two additional folders: ./Tribe Directories/[each tribe]; and ./Tribeies/[each tribe]/PDFs. 
         + NOTE 1: If these folders already exist, does not write over them. 
         + NOTE 2: If the code is re-run, it's suggested that the tribe's folder is deleted or renamed manually.
     * in each ./Tribe Directories/[each tribe], a .txt file is created ([tribe name]_links.txt). This file will print a series of links, numbered, for the three different searc Directorh terms. 
