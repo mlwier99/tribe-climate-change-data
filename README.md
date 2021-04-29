@@ -22,7 +22,7 @@ Retrieves first page of Google results for all federally-recognized Native Ameri
   * generated path and folders: ./Tribe Directories/[each tribe looped through]/PDFs 
   
 ### Files Uploaded
-DirSearchPrint.py
+### DirSearchPrint.py
     * combines each tribe from Federal and State Recognized Tribes (2020; found at National Conference of State Legislators website) with one of three search terms, then retreives the first ten results for each tribe-term. 
     * if it doesn't already exist, will create  ./Tribe Directories folder. 
     *  during the loop, for each tribe that has been run, the code generates two additional folders: ./Tribe Directories/[each tribe]; and ./Tribeies/[each tribe]/PDFs. 
@@ -33,7 +33,7 @@ DirSearchPrint.py
     * in the same loop as the list of links and the .txt file, the link will be saved. When the link is .pdf, .xlsx, .docx, etc, the same file extension will be on the saved copy of the link. If .html or unspecified, the link is printed/saved a .pdf. 
         + NOTE 1: These are saved in ./Tribe Directories/[each tribe]/PDFs. The sub-folder name is due to the fact that a majority of the saved files are in .pdf format. 
         + NOTE 2: occassionally, this area of the process takes a long time. In many instances, it's necessary to crtl+c a tribe. If crtl+c is used once, then the loop moves on to the next tribe. This is suggested. Using crtl+c more than once on the same loop iteraction causes the entire code to stop running. If this happens, find the recent tribe sub-directory and delete it to prevent multiple entries for the same search-term in the .txt file. 
-PDF List for Tribes.py
+### PDF List for Tribes.py
     * creates a ./Documents folder if it does not already exist (this folder will be in the same location as ./Tribe Directories. 
     * creates ./Documents/List of Saved Links for Each Tribe.csv  
     * in ./Documents/List of Saved Links for Each Tribe.csv, follownig variables are recorded: 
@@ -42,9 +42,9 @@ PDF List for Tribes.py
       + the number of saved documents/downloaded links for each of the search terms (theoretically 30, but not every link is able to be saved) 
       + the name of the directory where the saved/downloaded links are contained
      * this code WILL overwrite an existing ./Documents/List of Saved Links for Each Tribe.csv, so if you want to compare current to previous, I suggest manually renaming your existing file. 
-TribeList.txt
+### TribeList.txt
     * list of the tribes (590) that I cleaned (removed Unicode, etc) and copied to the script. The tribes should already be in the DirSearchPrint.py. 
-Codebook.pdf
+### Codebook.pdf
     * Codebook for the coded data; data files (.xlsx) may be available upon request.
 
 ## Notes 
