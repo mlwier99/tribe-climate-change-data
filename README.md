@@ -22,7 +22,7 @@ Retrieves first page of Google results for all federally-recognized Native Ameri
   - generated path and folders: ./Tribe Directories/[each tribe looped through]/PDFs 
   
 ### Files Uploaded
-**DirSearchPrint.py**
+### DirSearchPrint.py
     * combines each tribe from Federal and State Recognized Tribes (2020; found at National Conference of State Legislators website) with one of three search terms, then retreives the first ten results for each tribe-term. 
     * 
     * if it doesn't already exist, will create  ./Tribe Directories folder. 
